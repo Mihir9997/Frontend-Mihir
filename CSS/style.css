@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10rem; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.btn {
+    background-color: rgb(71, 130, 178);
+    width: 10rem;
+    height: 4rem;
+    font-size: larger;
+    border: none;
+    color: white;
+}
+
+.btna {
+    outline: 20px solid rgb(71, 130, 178);
+    /* outline-offset: -2px; */
+    transition: outline-offset 1000ms;
+}
+
+.btna:hover {
+    outline-offset: 10px;
+    outline-offset: 20px;
+
+}
+
+.btnb {
+    outline: 3px solid white;
+    transition: outline-offset 1000ms;
+
+}
+
+.btnb:hover {
+    outline-offset: -5px;
+}
+
+
+.btnc {
+    transition: transform 1000ms;
+    transition: box-shadow 1000ms;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,.4);
+
+}
+
+.btnc:active {
+transform:translateY(4px) scale(1.2);
+box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.4);
+}

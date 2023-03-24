@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnstyling {
+    background-color: rgb(186, 223, 242);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: bolder;
+    transform: scale();
+    transition: transform 300ms ease-in-out;
+}
+
+body {
+    background-color: hwb(204 58% 5%);
+    display: flex;
+}
+
+.div1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    transform: scale();
+    transition: transform 300ms ease-in-out;
+}
+
+.btncontainer {
+    margin: 10rem 8rem;
+
+
+}
+
+.pointtable {
+    margin: 0 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.result {
+    background-color: rgb(149, 205, 242);
+    background-image: linear-gradient(to right, rgb(72, 170, 241), transparent);
+    border: 2px solid rgb(83, 178, 240);
+    border-radius: .3em;
+    height: 7rem;
+    width: 10rem;
+    margin: 2rem 15rem;
+    font-size: 80px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.numberbox {
+    margin: 4rem 10rem;
+    display: flex;
+    width: 25rem;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+button:active {
+    transform: scale(0.9);
+
+}
+
+
+.numberbox~.num10:active {
+    transform: scale(0.9);
+}

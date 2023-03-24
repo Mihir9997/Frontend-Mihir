@@ -1,0 +1,3 @@
+// Task: Take 3 inputs from the user. It's guaranteed that all of them will be numbers. Amongst the 3 inputs, print the greatest number (input).
+// Initially, solve the question using nested if-else technique.
+// Later, solve the same by using ....
